@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="home">
+    <div class="divall">
+        <p class="text">Quer namorar comigo?</p>
+
+        <div class="divbutton">
+            <button class="button" onclick="popUpModal()">Sim</button>
+            <button class="button nao" onmouseover="moveButton(this)">Nao</button>
+        </div>
+    </div>
+
+    <div id="test" class="modal-content">
+        <span class="close" onclick="popUpClose()">&times;</span>
+
+        <div class='modalmessage'>
+            <p class='success'>Parabens aos novos namorados &hearts;</p>
+            <img class="imgcat" src="./82e248dd269bb9e19ce414e813df0336.jpg"/>
+        </div>
+        
+    </div>
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
